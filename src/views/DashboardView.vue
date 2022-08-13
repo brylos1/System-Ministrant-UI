@@ -46,7 +46,11 @@ data(){
                 NagowekDrugiejKolumny:"Godzina",
                 NagowekTrzeciejKolumny:"Parafia",
                 NagowekCzwartejKolumny:"Kościół",
-                BrakDanychDoWyswietlenia:"W najbliszym czasie nie masz Dyzurów"
+                BrakDanychDoWyswietlenia:"W najbliszym czasie nie masz Dyzurów",
+                PrzekierowanieDoPelniejWerjiStrony:{
+                    text:"Przejdź do kaledarza dyzurów",
+                    url:"/dyzury"
+                }
             }
     },
 
@@ -65,7 +69,11 @@ data(){
                 NagowekDrugiejKolumny:"Godzina",
                 NagowekTrzeciejKolumny:"Parafia",
                 NagowekCzwartejKolumny:"Miejsce",
-                BrakDanychDoWyswietlenia:"Hura!! Wszystko masz opłacone"
+                BrakDanychDoWyswietlenia:"W najbliszym czasie nie masz zbiórek",
+                 PrzekierowanieDoPelniejWerjiStrony:{
+                    text:"Przejdź do kaledarza dyzurów",
+                    url:"/dyzury"
+                }
         }
         },
         finanse:{
@@ -83,7 +91,11 @@ data(){
                 NagowekDrugiejKolumny:"Cel",
                 NagowekTrzeciejKolumny:"Kwota",
                 NagowekCzwartejKolumny:"Parafia",
-                BrakDanychDoWyswietlenia:"W najbliszym czasie nie masz zbiórek"
+                BrakDanychDoWyswietlenia:"Hura!! Wszystko masz opłacone",
+                 PrzekierowanieDoPelniejWerjiStrony:{
+                    text:"Przejdź do kaledarza dyzurów",
+                    url:"/dyzury"
+                }
         }
         }
     }

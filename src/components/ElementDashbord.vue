@@ -21,7 +21,7 @@
                     </tr>
                 </tbody>
             </table>
-            <p><a href="">Przejd do rozpiski</a></p>
+            <p><a :href="napisy.PrzekierowanieDoPelniejWerjiStrony.url">{{napisy.PrzekierowanieDoPelniejWerjiStrony.text}}</a></p>
                 
           </div>
           <div v-else class="m-lg-4 m-1">
