@@ -71,8 +71,8 @@ data(){
                 NagowekCzwartejKolumny:"Miejsce",
                 BrakDanychDoWyswietlenia:"W najbliszym czasie nie masz zbiórek",
                  PrzekierowanieDoPelniejWerjiStrony:{
-                    text:"Przejdź do kaledarza dyzurów",
-                    url:"/dyzury"
+                    text:"Przejdź do kaledarza Zbiórek",
+                    url:"/zbiorki"
                 }
         }
         },
@@ -93,8 +93,8 @@ data(){
                 NagowekCzwartejKolumny:"Parafia",
                 BrakDanychDoWyswietlenia:"Hura!! Wszystko masz opłacone",
                  PrzekierowanieDoPelniejWerjiStrony:{
-                    text:"Przejdź do kaledarza dyzurów",
-                    url:"/dyzury"
+                    text:"Przejdź do składek",
+                    url:"/skladki"
                 }
         }
         }

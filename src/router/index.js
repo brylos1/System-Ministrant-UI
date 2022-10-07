@@ -2,7 +2,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import LoginView from '@/views/LoginView.vue'
 import DashboardView from '@/views/DashboardView.vue'
-import DyzuryView from '@/views/DyzuryView.vue'
+import CalendarView from '@/views/CalendarView.vue'
 
 const routes = [
   { path: '/', redirect: '/kokpit' },
@@ -18,7 +18,24 @@ const routes = [
   },{
     path:"/dyzury",
     name:"dyzury",
-    component:DyzuryView
+    component:CalendarView,
+    meta:{
+      title: "Dyzury"
+    }
+  },{
+    path:"/zbiorki",
+    name:"zbiorki",
+    component:CalendarView,
+    meta:{
+      title: "Zbiórki"
+    }
+  },{
+    path:"/skladki",
+    name:"skladki",
+    component:CalendarView,
+    meta:{
+      title: "Składki"
+    }
   }
 ]
 

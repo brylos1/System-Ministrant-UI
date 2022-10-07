@@ -1,7 +1,7 @@
 <template>
 <div class="container dyzuryr">
     <div class="row">
-        <h1>Dyzury</h1>
+        <h1>{{title}}</h1>
     </div>
     <div class="row">
             <v-calendar
@@ -89,6 +89,7 @@ export default {
           dates: new Date(year, month, 4),
         },
       ],
+      title:this.$route.meta.title
     };
   },
   methods:{

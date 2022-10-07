@@ -12,12 +12,14 @@
           <router-link class="nav-link" to="/kokpit" active-class="active" aria-current="page" href="#" v-if="logined">Kokpit</router-link>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" v-if="logined">
             Ministrant
           </a>
           <ul class="dropdown-menu dropdown-menu-dark bg-dark" aria-labelledby="navbarDropdown">
             <li >
-          <router-link class="dropdown-item" to="/dyzury" active-class="active" aria-current="page" href="#" v-if="logined">Dyzury</router-link>
+          <a class="dropdown-item" to="/dyzury" active-class="active" aria-current="page" href="/dyzury" v-if="logined">Dyzury</a>
+          <a class="dropdown-item" to="/zbiorki" active-class="active" aria-current="page" href="/zbiorki" v-if="logined">Zbiórki</a>
+          <a class="dropdown-item" to="/skladki" active-class="active" aria-current="page" href="/skladki" v-if="logined">Składki</a>
         </li>
             <li><a class="dropdown-item" href="#">Another action</a></li>
             <li><hr class="dropdown-divider"></li>
@@ -38,7 +40,7 @@
 export default{
   data(){
     return{
-      logined: true
+      logined: false
     }
   }
 }
